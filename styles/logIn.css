@@ -1,0 +1,66 @@
+#logIn, #register{
+    width: 100%;
+    font-family: 'Source Sans Pro','Arial','Helvetica',sans-serif;
+    color:#a1a9b1;
+}
+
+#logIn fieldset, #register fieldset{
+    border: none;
+    width: 550px;
+    border-top: 1px solid #d6d9e0;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+#logIn legend, #register legend{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Asap","Arial","Helvetica",sans-serif;
+    color: #555;
+}
+
+#logIn input[type=text], #logIn input[type=password], #register input[type=text], #register input[type=password]{
+    display: block;
+    font-family: 'Source Sans Pro','Arial','Helvetica',sans-serif;
+    text-align: left;
+    width: 551px;
+    font-size: 15px;
+    margin: 0 auto;
+    outline:none;
+    padding: 8px 10px;
+    -webkit-transition: border-color .3s;
+    -moz-transition: border-color .3s;
+    -ms-transition: border-color .3s;
+    color: #555;
+    border: 2px solid #d6d9e0;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+#logIn input:focus, #register input:focus{
+    border-color: #969fa1;
+}
+
+
+#logInButton, #registerButton{
+    float: right;
+    width: 80px;
+    padding: 10px 8px;
+    background: #26bcb5;
+    color: #ffffff;
+    border: 1px solid rgb(178, 167, 167);
+    border-radius: 3px;
+    font-size: 15px;
+    -webkit-transition: background .3s;
+    -moz-transition: background .3s;
+    -ms-transition: background .3s;
+}
+
+#logInButton:hover, #registerButton:hover{
+    background: #535A6C;
+    cursor: pointer;
+}
+
+#register{
+    margin-bottom: 25px;
+}

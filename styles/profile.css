@@ -1,0 +1,41 @@
+.category-holder{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.profile-stat{
+    padding: 5px;
+    text-align: center;
+}
+
+.category{
+    height: auto;
+}
+
+.category:hover{
+    background: #ffffff;
+}
+
+.profile-stat span{
+    display: inline-block;
+    width: 20%;
+    color: gray;
+}
+
+.profile-stat .fancyInput{
+    display: inline-block;
+    width: 79%;
+}
+
+.profile-stat .fancyInput:disabled{
+    color: #cd0000;
+    cursor: not-allowed;
+}
+
+.user-avatar{
+    border: 4px solid #dedede;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
+}

@@ -1,0 +1,42 @@
+
+@media only screen and (max-width: 1160px)  {
+    #wrapper{
+        width: 960px;
+    }
+
+    #nav-header .nav-wrapper{
+        width: 960px;
+    }
+
+    header .preview-header > div h2{
+        padding-left: 20px;
+        font-size: 32px;
+    }
+
+    header .preview-header > div span{
+
+        padding-left: 20px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 960px)  {
+    #wrapper{
+        width: 100%;
+    }
+
+    #nav-header .nav-wrapper{
+        width: 100%;
+    }
+
+    header .preview-header > div h2{
+        padding-left: 20px;
+        font-size: 25px;
+    }
+
+    header .preview-header > div span{
+
+        padding-left: 20px;
+        font-size: 14px;
+    }
+}
