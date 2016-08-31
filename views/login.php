@@ -10,11 +10,10 @@
             </fieldset>
         </div>
     </form>
-    <span class="or-reg">You don't have an account?</span>
     <form method="post" action="index.php">
         <div id="register">
             <fieldset>
-                <legend>Create a new one</legend>
+                <legend>Register</legend>
                 <input type="text" placeholder="Username" name="username"/>
                 <input type="text" placeholder="First name" name="firstName"/>
                 <input type="text" placeholder="Last name" name="lastName"/>
